@@ -1,0 +1,7 @@
+
+            functions
+
+
+    > print(message) -> to display message
+    > input(message) -> to read message
+    > round(number,digit) -> to round a decimal number
