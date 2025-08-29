@@ -5,3 +5,4 @@
     > print(message) -> to display message
     > input(message) -> to read message
     > round(number,digit) -> to round a decimal number
+    > min(number1,number2) -> it return minimum value
