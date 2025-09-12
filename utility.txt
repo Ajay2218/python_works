@@ -5,5 +5,5 @@
     > print(message) -> to display message
     > input(message) -> to read message
     > round(number,digit) -> to round a decimal number
-    > min(number1,number2) -> it return minimum value
+    > min,max(number1,number2) -> it return minimum value
     > range(start,stop,step) -> it returns a sequence of number
