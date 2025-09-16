@@ -7,3 +7,4 @@
     > round(number,digit) -> to round a decimal number
     > min,max(number1,number2) -> it return minimum value
     > range(start,stop,step) -> it returns a sequence of number
+    > sorted(text) -> it returns a text in a sorted order
