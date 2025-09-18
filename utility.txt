@@ -8,3 +8,4 @@
     > min,max(number1,number2) -> it return minimum value
     > range(start,stop,step) -> it returns a sequence of number
     > sorted(text) -> it returns a text in a sorted order
+    > dir(class_name) -> ith use cheyth methods ethokke indenn nokkaan pattum (name il eth collection value koduthaalum varum)
