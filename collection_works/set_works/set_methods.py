@@ -19,6 +19,8 @@ methods
     def isdisjoint(self,set_object)
 
     def update(self,set_object)
+
+    def add(self,set_object)
 """
 
 #examples
