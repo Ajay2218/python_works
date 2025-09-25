@@ -9,3 +9,4 @@
     > range(start,stop,step) -> it returns a sequence of number
     > sorted(text) -> it returns a text in a sorted order
     > dir(class_name) -> ith use cheyth methods ethokke indenn nokkaan pattum (name il eth collection value koduthaalum varum)
+    > enumerate(collection_name) -> return value and index 
