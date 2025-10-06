@@ -27,15 +27,61 @@ movies = [
 ]
 
 # display all movie names
+print("----all movies-----")
+all_movies = [m.get("title") for m in movies]
+
+print(all_movies)
+
+print()
 
 # display malayalam movie names
+print("---malayalam movies----")
+
+mal_movies = [mal.get("title")  for mal in movies if mal.get("language") == "Malayalam"]
+
+print(mal_movies)
+
+print()
 
 # movie with run time > 150
+print("---movie with runtime > 150----")
+
+runtime_greater_150 = [mov.get("title") for mov in movies if mov.get("runtime") > 150]
+
+print(runtime_greater_150)
+
+print()
 
 # malayalam movie with runtime > 150
+print("---mal movies with runtime > 150----")
+
+mal_movies_150  = [ma.get("title") for ma in movies if ma.get("language")=="Malayalam" and ma.get("runtime") > 150]
+
+print(mal_movies_150)
+
+print()
 
 # display movies with rating > 7.5
+print("-----movie with rating > 7.5------")
+
+rating_7 = [rat.get("title") for rat in movies if rat.get("rating")> 7.5]
+
+print(rating_7)
+
+print()
 
 # display tamil movies with rating > 8
+print("---movie with rating > 8-----")
+
+rat_8 = [ra.get("title") for ra in movies if ra.get("rating") > 8 and ra.get("language") == "Tamil"]
+
+print(rat_8)
+
+print()
 
 # no of malayalam movies
+print("---no of malayalam movies----")
+
+count = len(all_movies)
+
+print(count)
